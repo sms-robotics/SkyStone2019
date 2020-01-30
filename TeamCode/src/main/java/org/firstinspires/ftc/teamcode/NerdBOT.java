@@ -105,9 +105,9 @@ public class NerdBOT{
     private double maxSpeed = 1.0;
     private double currentMaxSpeed = 0.0;
 
-    private final double ticksPerRotation = 560.0; //For omni wheels we are using
-    private final double wheelDiameter = 3.54331; // For omni wheels we are using
-    private final double GEAR_RATIO = 20.0/15.0;  // Gear ratio
+    private final double ticksPerRotation = 1478.4; //For omni wheels we are using
+    private final double wheelDiameter = 4; // For omni wheels we are using
+    private final double GEAR_RATIO = 40.0/1.0;  // Gear ratio
 
 
     private NerdPIDCalculator zPIDCalculator ; // Variable to hold PID calculator for Z while driving

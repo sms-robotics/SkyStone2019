@@ -195,6 +195,11 @@ public class SkyStoneAuton extends LinearOpMode {
             case "UNLATCH":
                 v_state[v_state_current]=DONE;
                 break;
+            case "NERD_DRIVE":
+                v_state[v_state_current]=NERD_DRIVE;Param1[v_state_current]=72;Param2[v_state_current]=0;Param3[v_state_current]=0;v_state_current++;
+                v_state[v_state_current]=DONE;
+                break;
+
 
             case "BLUE_FOUNDATION":
                 turnLimit2 = 0.3;
@@ -276,6 +281,9 @@ public class SkyStoneAuton extends LinearOpMode {
                 break;
 
             case "BLUE_STONE":
+
+
+
                 //v_state[v_state_current]=NERD_DRIVE;Param1[v_state_current]=20;Param2[v_state_current]=0;Param3[v_state_current]=0;v_state_current++;
 //                v_state[v_state_current]=DONE;v_state_current++;
                 v_state[v_state_current]=ENCODER_DRIVE;Param1[v_state_current]=0.4;Param2[v_state_current]=-1100;Param3[v_state_current]=0;v_state_current++;
